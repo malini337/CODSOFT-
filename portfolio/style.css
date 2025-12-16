@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav .logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #00b4ff;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: #2f2f2f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 80px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  width: 380px;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: #00b4ff;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 120px 80px;
+}
+
+.section h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.light {
+  background: #ffffff;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.large-text {
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background: #00b4ff;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 6px;
+  color: white;
+}
+
+/* WORKS */
+.works {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.work-card {
+  background: #f0f0f0;
+  padding: 30px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.work-card h2 {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
